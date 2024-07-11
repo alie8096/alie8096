@@ -1,4 +1,4 @@
-# Hello, I'm [Ali Ebrahimian] 👋
+# Hello, I'm Ali Ebrahimian 👋
 
 Welcome to my GitHub profile! I'm passionate about coding and enjoy working with various programming languages. Here you'll find a collection of my public repositories showcasing my projects and contributions.
 
