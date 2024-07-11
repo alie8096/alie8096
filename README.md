@@ -5,12 +5,14 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 ## 🔧 Technologies & Tools
 
 - **Programming Languages:**
-  - ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   - ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-  - ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=java)
+  - ![GO](https://img.shields.io/badge/-Go-333333?style=flat&logo=go)
+  - ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   - ![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=cplusplus)
+  - ![C](https://img.shields.io/badge/-C-333333?style=flat&logo=c)
   - ![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=html5)
   - ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=css3)
+  - ![LaTeX](https://img.shields.io/badge/-LaTeX-333333?style=flat&logo=latex)
   - ![Other Languages](https://img.shields.io/badge/-Others-333333?style=flat)
 
 - **Tools and Frameworks:**
