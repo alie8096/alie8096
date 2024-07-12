@@ -48,7 +48,7 @@ C++        11 mins         ▒░░░░░░░░░░░░░░░░�
 ## 📫 How to Reach Me
 
 - Email: [ali.ebrahimian.001@gmail.com](mailto:ali.ebrahimian.001@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- LinkedIn: [ali-ebrahimian](https://www.linkedin.com/in/ali-ebrahimian-5aaa32284)
 - Telegram: [ali_e_8096](https://t.me/ali_e_8096)
 - X: [ali_e_001](https://x.com/ali_e_001)
 
