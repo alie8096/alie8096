@@ -30,6 +30,13 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 ## 📅 WakaTime Stats
 
 <!--START_SECTION:waka-->
+
+```txt
+Markdown   12 hrs 25 mins  ███████████████░░░░░░░░░░   59.99 %
+Python     8 hrs 6 mins    █████████▓░░░░░░░░░░░░░░░   39.12 %
+C++        11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
+```
+
 <!--END_SECTION:waka-->
 
 ## 📝 Recent Projects
