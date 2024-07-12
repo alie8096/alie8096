@@ -29,20 +29,8 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ## 📅 WakaTime Stats
 
-### Weekly Coding Activity
-![Weekly Coding Activity](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
-
-### Monthly Coding Activity
-![Monthly Coding Activity](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&period=30d&layout=compact&theme=radical)
-
-### Languages Used
-![Languages Used](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
-
-### Projects Worked On
-![Projects](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
-
-### Operating Systems
-![Operating Systems](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## 📝 Recent Projects
 
@@ -53,7 +41,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 ## 📫 How to Reach Me
 
 - Email: [ali.ebrahimian.001@gmail.com](mailto:ali.ebrahimian.001@gmail.com)
-- LinkedIn: [](https://www.linkedin.com/in/your-profile)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
 - Telegram: [ali_e_8096](https://t.me/ali_e_8096)
 - X: [ali_e_001](https://x.com/ali_e_001)
 
