@@ -27,7 +27,9 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&layout=compact&theme=radical)
 
-## 📅 WakaTime Stats *last week*
+## 📅 WakaTime Stats
+
+*last week*
 
 <!--START_SECTION:waka-->
 
