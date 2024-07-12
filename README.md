@@ -27,9 +27,26 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&layout=compact&theme=radical)
 
+## 📅 WakaTime Stats
+
+### Weekly Coding Activity
+![Weekly Coding Activity](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
+
+### Monthly Coding Activity
+![Monthly Coding Activity](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&period=30d&layout=compact&theme=radical)
+
+### Languages Used
+![Languages Used](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
+
+### Projects Worked On
+![Projects](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
+
+### Operating Systems
+![Operating Systems](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&layout=compact&theme=radical)
+
 ## 📝 Recent Projects
 
-- [Basic principles of fMRI](https://github.com/alie8096/Basic-Principles-fMRI): Explanations about the principles of fMRI imaging and preprocessing and processing.View the [Presentation🖥️](https://alie8096.github.io/Basic-Principles-fMRI)
+- [Basic principles of fMRI](https://github.com/alie8096/Basic-Principles-fMRI): Explanations about the principles of fMRI imaging and preprocessing and processing. View the [Presentation🖥️](https://alie8096.github.io/Basic-Principles-fMRI)
 - [Django E-booklet](https://github.com/alie8096/Django-E-booklet): Django framework training manual based on Django-Reza Dovati training. View the [E-Booklet🌐](https://mahd25.github.io/Django-E-booklet/e-booklet)
 - [Material Properties](https://github.com/alie8096/material-properties): Booklet on properties of engineering materials in progress.
 
