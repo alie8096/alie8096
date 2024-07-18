@@ -29,6 +29,16 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 <!-- ## 🏆 GitHub Trophies
 
 ![My Profile Trophy](https://github-profile-trophy.vercel.app/?username=alie8096&theme=radical&no-frame=false&no-bg=true&margin-w=4) -->
+## 📊 GitHub Stats
+
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical)
+
+![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alie8096&theme=radical)
+
+![Top Languages by Commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alie8096&theme=radical)
+
+![Commits per Day](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alie8096&theme=radical)
+
 
 
 ## 📈 Languages Used
