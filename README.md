@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 - **Programming Languages:**
   - ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-  - ![GO](https://img.shields.io/badge/-Go-333333?style=flat&logo=go)
+  - ![Go](https://img.shields.io/badge/-Go-333333?style=flat&logo=go)
   - ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   - ![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=cplusplus)
   - ![C](https://img.shields.io/badge/-C-333333?style=flat&logo=c)
@@ -23,9 +23,9 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
 
-## 🏆 GitHub Trophies
+<!-- ## 🏆 GitHub Trophies
 
-![My Profile Trophy](https://github-profile-trophy.vercel.app/?username=alie8096&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![My Profile Trophy](https://github-profile-trophy.vercel.app/?username=alie8096&theme=radical&no-frame=false&no-bg=true&margin-w=4) -->
 
 ## 📈 Languages Used
 
@@ -35,9 +35,8 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ### *last week*
 
-  <!--START_SECTION:waka-->
-  
-  <!--END_SECTION:waka-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## 📝 Recent Projects
 
