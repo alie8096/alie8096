@@ -46,7 +46,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ## 📅 WakaTime Stats
 
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alie8096&theme=radical)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=@aliebrahimian&theme=radical)
 
 
 ### *last week*
