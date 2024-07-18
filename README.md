@@ -19,17 +19,21 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
   - ![Django](https://img.shields.io/badge/-Django-333333?style=flat&logo=django)
   - ![Flask](https://img.shields.io/badge/-Flask-333333?style=flat&logo=flask)
 
+<!--
 ## 📊 GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)-->
+## 📊 GitHub Stats
 
+![Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical)
 <!-- ## 🏆 GitHub Trophies
 
 ![My Profile Trophy](https://github-profile-trophy.vercel.app/?username=alie8096&theme=radical&no-frame=false&no-bg=true&margin-w=4) -->
 
+
 ## 📈 Languages Used
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&layout=compact&theme=radical)
+![Languages Used](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alie8096&theme=radical)
 
 ## 📅 WakaTime Stats
 
