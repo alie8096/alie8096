@@ -21,11 +21,11 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ## 📊 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical) ![My GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=mhkarimi1383&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+![My Profile Trophy](https://github-profile-trophy.vercel.app/?username=alie8096&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## 📈 Languages Used
 
@@ -33,19 +33,11 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ## 📅 WakaTime Stats
 
-*last week*
+### *last week*
 
-<!--START_SECTION:waka-->
-
-```txt
-Markdown      10 hrs 49 mins  ███████████░░░░░░░░░░░░░░   44.43 %
-Python        9 hrs 22 mins   █████████▓░░░░░░░░░░░░░░░   38.45 %
-HTML          2 hrs 10 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.95 %
-CSS           1 hr 5 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 %
-JavaScript    45 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.14 %
-```
-
-<!--END_SECTION:waka-->
+  <!--START_SECTION:waka-->
+  
+  <!--END_SECTION:waka-->
 
 ## 📝 Recent Projects
 
