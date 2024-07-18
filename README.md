@@ -22,6 +22,10 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 ## 📊 GitHub Stats
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
+![](https://github-readme-stats.vercel.app/api?username=alie8096&theme=dracula&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=alie8096&theme=dracula&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
 
 ## 📈 Languages Used
 
