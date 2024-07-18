@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ## 📊 GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical) ![My GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=alie8096&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
 
 ## 🏆 GitHub Trophies
 
