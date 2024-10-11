@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body>
-<header>
-    <nav>
-        <div class="navbar">
-            <span class="logo"><img src="Images/logo.svg" alt="Ali Ebrahimian-Logo" style="width: 80px;"></span>
-            <div class="hamburger" onclick="toggleMenu()">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li>
-                    <button onclick="toggleDarkMode()" id="dark-mode-toggle" class="dark-mode-btn">
-                        <i class="fa-solid fa-moon"></i>
-                    </button>
-                </li>
-                
-                
 
-            </ul>
-        </div>
-    </nav>
-</header>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <span class="logo"><img src="Images/logo.svg" alt="Ali Ebrahimian-Logo" style="width: 80px;"></span>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li>
+                        <button onclick="toggleDarkMode()" id="dark-mode-toggle" class="dark-mode-btn">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
     <main>
-<!-- Hero Section with Image and Introduction -->
-<section class="hero">
-    <div class="profile-container">
-        <img src="Images/img_profile.jpg" alt="Profile Photo" class="profile-photo">
-        <div class="intro-text">
-            <h1>Ali Ebrahimian</h1>
-            <h3>Biomedical Engineering</h3>
-            <p>I am currently pursuing my Bachelor's degree in Biomedical Engineering at Azad University in
-                Shahre-kord. As an individual with an ENTJ personality type, I am naturally drawn to leadership
-                roles and enjoy taking charge of projects and teams. I have a strong interest in both management
-                and programming, finding joy in organizing tasks efficiently and developing innovative solutions
-                to complex problems.</p>
+        <!-- Hero Section with Image and Introduction -->
+        <section class="hero">
+            <div class="profile-container">
+                <img src="Images/img_profile.jpg" alt="Profile Photo" class="profile-photo">
+                <div class="intro-text">
+                    <h1>Ali Ebrahimian</h1>
+                    <h3>Biomedical Engineering</h3>
+                    <p>I am currently pursuing my Bachelor's degree in Biomedical Engineering at Azad University in
+                        Shahre-kord. As an individual with an ENTJ personality type, I am naturally drawn to leadership
+                        roles and enjoy taking charge of projects and teams. I have a strong interest in both management
+                        and programming, finding joy in organizing tasks efficiently and developing innovative solutions
+                        to complex problems.</p>
 
-            <a href="about.html" class="btn">Learn More</a>
+                    <a href="about.html" class="btn">Learn More</a>
 
-            <div class="social-links">
-                <a href="https://github.com/alie8096" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:ali.ebrahimian.001@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                <a href="https://t.me/ali_e_8096" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <div class="social-links">
+                        <a href="https://github.com/alie8096" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:ali.ebrahimian.001@gmail.com" target="_blank"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/ali_e_8096" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
         <!-- Project Section with Slider -->
@@ -108,19 +120,19 @@
         <section class="github-stats">
             <h2>My GitHub Overview</h2>
             <div class="github-cards">
-                <img src="https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical" alt="My GitHub Stats">
-                <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alie8096&theme=radical" alt="Top Languages by Commit">
-                <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical" alt="Profile Details">
+                <img src="https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical"
+                    alt="My GitHub Stats">
+                <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alie8096&theme=radical"
+                    alt="Top Languages by Commit">
+                <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical"
+                    alt="Profile Details">
             </div>
         </section>
-        
-        
+
     </main>
 
-    <footer>
-        <p>&copy; 2024 Ali Ebrahimian. All rights reserved.</p>
-    </footer>
-
     <script src="script.js"></script>
+
 </body>
+
 </html>

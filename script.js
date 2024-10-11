@@ -29,3 +29,16 @@ function toggleMenu() {
     const navLinks = document.getElementById('nav-links');
     navLinks.classList.toggle('show');
 }
+// Load footer and then execute additional scripts
+$(document).ready(function() {
+    $.ajax({
+        url: 'footer.html',
+        method: 'GET',
+        success: function(data) {
+            $('body').append(data);
+        },
+        error: function() {
+            console.log('Error loading footer');
+        }
+    });
+});
