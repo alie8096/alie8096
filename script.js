@@ -42,3 +42,16 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    $.ajax({
+        url: 'header.html',
+        method: 'GET',
+        success: function(data) {
+            $('body').append(data);
+        },
+        error: function() {
+            console.log('Error loading footer');
+        }
+    });
+});
