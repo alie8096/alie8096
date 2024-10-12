@@ -39,7 +39,7 @@ header {
 .logo {
     /* font-size: 1.5em; */
     /* font-weight: bold; */
-    background-color: rgba(245, 247, 250, 0.05);
+    background-color: rgba(245, 247, 250, 0.01);
     border-radius: 50%;
 }
 
@@ -54,7 +54,8 @@ nav ul li {
     margin: 0;
 }
 
-nav ul li a, nav ul li button {
+nav ul li a,
+nav ul li button {
     color: #F5F7FA;
     text-decoration: none;
     font-weight: bold;
@@ -64,7 +65,8 @@ nav ul li a, nav ul li button {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-nav ul li a:hover, nav ul li button:hover {
+nav ul li a:hover,
+nav ul li button:hover {
     background-color: #F5F7FA;
     color: #3E4C59;
     border-color: #3E4C59;
@@ -113,7 +115,7 @@ nav ul li a:hover, nav ul li button:hover {
         margin: 10px 0;
     }
 
-    .dark-mode nav ul{
+    .dark-mode nav ul {
         background-color: #1d1d1d;
     }
 }
@@ -217,6 +219,72 @@ main {
     background-color: #0B69A3;
 }
 
+/* Container for activity topics */
+.container-topics {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow topics to wrap */
+    justify-content: center;
+    /* Center topics horizontally */
+    margin: 20px auto;
+    /* Add margin for spacing */
+    gap: 20px;
+    /* Gap between items */
+}
+
+/* Category item */
+.category-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    flex-basis: calc(33.33% - 40px);
+    /* Width of items for larger screens */
+    justify-content: center;
+    /* Center content horizontally */
+    box-sizing: border-box;
+    /* Include padding in width calculations */
+}
+
+
+/* Active category item */
+.category-item.active {
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Hover effect */
+.category-item:hover {
+    border-bottom: 2px solid transparent;
+}
+
+.category-item:hover::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007BFF;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.category-item:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.category-item i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.category-item h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
 
 .project-section {
     margin: 40px 0;
@@ -248,7 +316,8 @@ main {
 .projects {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Ensures proper layout on small screens */
+    flex-wrap: wrap;
+    /* Ensures proper layout on small screens */
     gap: 20px;
 }
 
@@ -257,8 +326,10 @@ main {
     color: #F5F7FA;
     padding: 20px;
     border-radius: 10px;
-    width: 100%; /* Full width on small screens */
-    max-width: 200px; /* Limit width on larger screens */
+    width: 100%;
+    /* Full width on small screens */
+    max-width: 200px;
+    /* Limit width on larger screens */
     transition: transform 0.3s;
 }
 
@@ -395,7 +466,7 @@ footer {
 }
 
 .dark-mode-btn.active i {
-    color: #ffc92d; 
+    color: #ffc92d;
 }
 
 
@@ -404,11 +475,15 @@ footer {
     color: #f0f0f0;
 }
 
-.dark-mode .navbar, .dark-mode footer {
+.dark-mode .navbar,
+.dark-mode footer {
     background-color: #1d1d1d;
 }
 
-.dark-mode .hero , .dark-mode .profile-container, .dark-mode .github-stats, .dark-mode .project-card {
+.dark-mode .hero,
+.dark-mode .profile-container,
+.dark-mode .github-stats,
+.dark-mode .project-card {
     background-color: #333;
 }
 
@@ -417,8 +492,13 @@ footer {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /* Responsive Layout */
@@ -466,6 +546,11 @@ footer {
         height: 120px;
     }
 
+    .category-item {
+        flex-basis: calc(50% - 40px);
+        /* Two items per row */
+    }
+
     .intro-text h1 {
         font-size: 1.7em;
     }
@@ -501,6 +586,11 @@ footer {
     .profile-photo {
         width: 100px;
         height: 100px;
+    }
+
+    .category-item {
+        flex-basis: 100%;
+        /* One item per row */
     }
 
     .intro-text h1 {

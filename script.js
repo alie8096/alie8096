@@ -8,6 +8,22 @@ function toggleDarkMode() {
 
     // تغییر رنگ دکمه با کلاس active
     darkModeToggle.classList.toggle('active');
+
+    // ذخیره حالت دارک مود در localStorage
+    if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'enabled');
+    } else {
+        localStorage.setItem('darkMode', 'disabled');
+    }
+}
+
+// بررسی و تنظیم حالت دارک مود بر اساس localStorage
+function checkDarkMode() {
+    const darkModeStatus = localStorage.getItem('darkMode');
+    if (darkModeStatus === 'enabled') {
+        document.body.classList.add('dark-mode');
+        document.getElementById('dark-mode-toggle').classList.add('active');
+    }
 }
 
 // منوی نوبار
@@ -18,6 +34,9 @@ function toggleMenu() {
 
 // بارگذاری هدر و فوتر با استفاده از AJAX
 $(document).ready(function() {
+    // بررسی و اعمال حالت دارک مود در زمان لود صفحه
+    checkDarkMode();
+
     // بارگذاری هدر
     $.ajax({
         url: 'header.html',
@@ -45,15 +64,11 @@ $(document).ready(function() {
     // بارگذاری پروژه‌ها به صورت پیش‌فرض
     loadProjects('university');
 
-    // رویداد کلیک برای دکمه‌های پروژه
-    $('#university-projects-btn').click(function() {
-        loadProjects('university');
-        toggleActiveButton($(this));
-    });
-
-    $('#tech-projects-btn').click(function() {
-        loadProjects('tech');
-        toggleActiveButton($(this));
+    // رویداد کلیک برای آیتم‌های دسته‌بندی
+    $('.category-item').click(function() {
+        const type = $(this).attr('id') === 'tech-projects-btn' ? 'tech' : 'university';
+        loadProjects(type);
+        toggleActiveCategory($(this));
     });
 });
 
@@ -78,8 +93,11 @@ function loadProjects(type) {
     });
 }
 
-// تابع تغییر کلاس active برای دکمه‌ها
-function toggleActiveButton(button) {
-    $('.project-buttons button').removeClass('active');
-    button.addClass('active');
+// تابع تغییر کلاس active برای دسته‌بندی‌ها
+function toggleActiveCategory(selected) {
+    $('.category-item').removeClass('active');
+    selected.addClass('active');
 }
+
+// رویداد تغییر حالت دارک مود
+document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
