@@ -218,19 +218,19 @@ main {
 }
 
 
-.project-slider {
+.project-section {
     margin: 40px 0;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-.project-slider h2 {
+.project-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.slider-container {
+.project-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ main {
     position: relative;
 }
 
-.slide {
+.project {
     display: none;
     width: 100%;
     transition: all 0.5s;
@@ -265,6 +265,34 @@ main {
 .project-card:hover {
     transform: translateY(-10px);
 }
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.project-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #F5F7FA;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.project-buttons button.active {
+    background-color: #1992d4;
+    color: #F5F7FA;
+}
+
+#project-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 
 /* GitHub Stats Section */
 .github-stats {
