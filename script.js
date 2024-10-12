@@ -79,4 +79,3 @@ function toggleActiveCategory(selected) {
     $('.category-item').removeClass('active');
     selected.addClass('active');
 }
-
