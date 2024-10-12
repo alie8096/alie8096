@@ -1,3 +1,4 @@
+// تابع تغییر حالت دارک مود
 function toggleDarkMode() {
     const body = document.body;
     const darkModeToggle = document.getElementById('dark-mode-toggle');
@@ -9,28 +10,15 @@ function toggleDarkMode() {
     darkModeToggle.classList.toggle('active');
 }
 
-// اسلایدشو
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const slideInterval = setInterval(nextSlide, 5000);
-
-function nextSlide() {
-    slides[currentSlide].style.display = 'none';
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = 'block';
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    slides[0].style.display = 'block';
-});
-
 // منوی نوبار
 function toggleMenu() {
     const navLinks = document.getElementById('nav-links');
     navLinks.classList.toggle('show');
 }
-// Load footer and then execute additional scripts
+
+// بارگذاری فوتر و هدر با استفاده از AJAX
 $(document).ready(function() {
+    // بارگذاری فوتر
     $.ajax({
         url: 'footer.html',
         method: 'GET',
@@ -41,9 +29,8 @@ $(document).ready(function() {
             console.log('Error loading footer');
         }
     });
-});
 
-$(document).ready(function() {
+    // بارگذاری هدر
     $.ajax({
         url: 'header.html',
         method: 'GET',
@@ -51,7 +38,48 @@ $(document).ready(function() {
             $('body').append(data);
         },
         error: function() {
-            console.log('Error loading footer');
+            console.log('Error loading header');
         }
     });
+
+    // بارگذاری پروژه‌ها به صورت پیش‌فرض
+    loadProjects('university');
+
+    // رویداد کلیک برای دکمه‌های پروژه
+    $('#university-projects-btn').click(function() {
+        loadProjects('university');
+        toggleActiveButton($(this));
+    });
+
+    $('#tech-projects-btn').click(function() {
+        loadProjects('tech');
+        toggleActiveButton($(this));
+    });
+
+    // تابع برای بارگذاری پروژه‌ها از فایل projects.html
+    function loadProjects(type) {
+        $.ajax({
+            url: 'projects.html',
+            method: 'GET',
+            success: function(data) {
+                const projects = $(data).find('#' + type + '-projects .project-card');
+                const projectContent = $('#project-content');
+                projectContent.empty();  // حذف محتوای قبلی
+
+                // اضافه کردن پروژه‌ها به صفحه
+                projects.each(function() {
+                    projectContent.append($(this));
+                });
+            },
+            error: function() {
+                console.log('Error loading projects.');
+            }
+        });
+    }
+
+    // تابع تغییر کلاس active برای دکمه‌ها
+    function toggleActiveButton(button) {
+        $('.project-buttons button').removeClass('active');
+        button.addClass('active');
+    }
 });
