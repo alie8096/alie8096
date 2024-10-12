@@ -18,6 +18,17 @@ function toggleMenu() {
 
 // بارگذاری فوتر و هدر با استفاده از AJAX
 $(document).ready(function() {
+    // بارگذاری هدر
+    $.ajax({
+        url: 'header.html',
+        method: 'GET',
+        success: function(data) {
+            $('body').prepend(data);
+        },
+        error: function() {
+            console.log('Error loading header');
+        }
+    });
     // بارگذاری فوتر
     $.ajax({
         url: 'footer.html',
@@ -30,17 +41,6 @@ $(document).ready(function() {
         }
     });
 
-    // بارگذاری هدر
-    $.ajax({
-        url: 'header.html',
-        method: 'GET',
-        success: function(data) {
-            $('body').append(data);
-        },
-        error: function() {
-            console.log('Error loading header');
-        }
-    });
 
     // بارگذاری پروژه‌ها به صورت پیش‌فرض
     loadProjects('university');
