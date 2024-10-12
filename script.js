@@ -75,7 +75,7 @@ $(document).ready(function() {
 // تابع برای بارگذاری پروژه‌ها از فایل projects.html
 function loadProjects(type) {
     $.ajax({
-        url: 'rawprojects.html',
+        url: 'projects.html',
         method: 'GET',
         success: function(data) {
             const projects = $(data).find('#' + type + '-projects .project-card');
