@@ -8,22 +8,6 @@ function toggleDarkMode() {
 
     // تغییر رنگ دکمه با کلاس active
     darkModeToggle.classList.toggle('active');
-
-    // ذخیره حالت دارک مود در localStorage
-    if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('darkMode', 'enabled');
-    } else {
-        localStorage.setItem('darkMode', 'disabled');
-    }
-}
-
-// بررسی و تنظیم حالت دارک مود بر اساس localStorage
-function checkDarkMode() {
-    const darkModeStatus = localStorage.getItem('darkMode');
-    if (darkModeStatus === 'enabled') {
-        document.body.classList.add('dark-mode');
-        document.getElementById('dark-mode-toggle').classList.add('active');
-    }
 }
 
 // منوی نوبار
@@ -34,9 +18,6 @@ function toggleMenu() {
 
 // بارگذاری هدر و فوتر با استفاده از AJAX
 $(document).ready(function() {
-    // بررسی و اعمال حالت دارک مود در زمان لود صفحه
-    checkDarkMode();
-
     // بارگذاری هدر
     $.ajax({
         url: 'header.html',
@@ -75,7 +56,7 @@ $(document).ready(function() {
 // تابع برای بارگذاری پروژه‌ها از فایل projects.html
 function loadProjects(type) {
     $.ajax({
-        url: 'rawprojects.html',
+        url: 'projects.html',
         method: 'GET',
         success: function(data) {
             const projects = $(data).find('#' + type + '-projects .project-card');
@@ -99,5 +80,3 @@ function toggleActiveCategory(selected) {
     selected.addClass('active');
 }
 
-// رویداد تغییر حالت دارک مود
-document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
