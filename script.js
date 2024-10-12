@@ -1,42 +1,4 @@
-// تابع تغییر حالت دارک مود
-function toggleDarkMode() {
-    const body = document.body;
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-
-    // تغییر حالت دارک مود
-    body.classList.toggle('dark-mode');
-
-    // تغییر رنگ دکمه با کلاس active
-    darkModeToggle.classList.toggle('active');
-
-    // ذخیره حالت دارک مود در localStorage
-    if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('darkMode', 'enabled');
-    } else {
-        localStorage.setItem('darkMode', 'disabled');
-    }
-}
-
-// بررسی و تنظیم حالت دارک مود بر اساس localStorage
-function checkDarkMode() {
-    const darkModeStatus = localStorage.getItem('darkMode');
-    if (darkModeStatus === 'enabled') {
-        document.body.classList.add('dark-mode');
-        document.getElementById('dark-mode-toggle').classList.add('active');
-    }
-}
-
-// منوی نوبار
-function toggleMenu() {
-    const navLinks = document.getElementById('nav-links');
-    navLinks.classList.toggle('show');
-}
-
-// بارگذاری هدر و فوتر با استفاده از AJAX
 $(document).ready(function() {
-    // بررسی و اعمال حالت دارک مود در زمان لود صفحه
-    checkDarkMode();
-
     // بارگذاری هدر
     $.ajax({
         url: 'header.html',
@@ -62,25 +24,25 @@ $(document).ready(function() {
     });
 
     // بارگذاری پروژه‌ها به صورت پیش‌فرض
-    loadProjects('university');
+    loadProjects('university'); // بارگذاری پروژه‌های دانشگاهی به‌صورت پیش‌فرض
 
     // رویداد کلیک برای آیتم‌های دسته‌بندی
     $('.category-item').click(function() {
-        const type = $(this).attr('id') === 'tech-projects-btn' ? 'tech' : 'university';
-        loadProjects(type);
-        toggleActiveCategory($(this));
+        const type = $(this).data('type');
+        loadProjects(type); // بارگذاری پروژه‌های مربوطه
+        toggleActiveCategory($(this)); // تغییر کلاس active
     });
 });
 
-// تابع برای بارگذاری پروژه‌ها از فایل projects.html
+// تابع برای بارگذاری پروژه‌ها از فایل rawprojects.html
 function loadProjects(type) {
     $.ajax({
         url: 'rawprojects.html',
         method: 'GET',
         success: function(data) {
-            const projects = $(data).find('#' + type + '-projects .project-card');
+            const projects = $(data).find(`#${type}-projects .project-card`).slice(0, 3); // سه پروژه اول از دسته‌بندی انتخاب شده
             const projectContent = $('#project-content');
-            projectContent.empty();  // حذف محتوای قبلی
+            projectContent.empty(); // حذف محتوای قبلی
 
             // اضافه کردن پروژه‌ها به صفحه
             projects.each(function() {
@@ -98,6 +60,3 @@ function toggleActiveCategory(selected) {
     $('.category-item').removeClass('active');
     selected.addClass('active');
 }
-
-// رویداد تغییر حالت دارک مود
-document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
