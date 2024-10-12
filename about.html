@@ -7,17 +7,103 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>About Me</title>
+    <title>About Me - Ali Ebrahimian</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .profile-picture {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 2rem;
+            border: 5px solid #333;
+        }
+
+        .content-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+
+        .content-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .social-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: #555;
+        }
+
+        .contact-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-list li {
+            margin: 0 1rem;
+        }
+
+        .contact-list a {
+            color: #333;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .contact-list a:hover {
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .content-section {
+                width: 100%;
+                padding: 1.5rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -39,21 +125,20 @@
                 my personal and professional life. I am excited to continue learning, growing, and pushing the
                 boundaries of what is possible in the field of biomedical engineering and beyond.</p>
             <a href="https://github.com/alie8096" class="social-link">GitHub</a>
-
         </div>
+    </section>
 
-        <section class="container-about">
-            <h2>Contact Me</h2>
-            <p>You can contact me via email or the following social networks:</p>
-            <ul class="contact-list">
-                <li><a href="mailto:ali.ebrahimian.001@gmail.com"><i class="fa-solid fa-envelope"></i></i></a></li>
-                <li><a href="https://github.com/alie8096"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://instagram.com/ali.e.8096"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="http://t.me/ali_e_8096"><i class="fa-brands fa-telegram"></i></a></li>
-
-            </ul>
-        </section>
-        <script src="script.js"></script>
+    <section class="container-about">
+        <h2>Contact Me</h2>
+        <p>You can contact me via email or the following social networks:</p>
+        <ul class="contact-list">
+            <li><a href="mailto:ali.ebrahimian.001@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="https://github.com/alie8096"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://instagram.com/ali.e.8096"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="http://t.me/ali_e_8096"><i class="fa-brands fa-telegram"></i></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
