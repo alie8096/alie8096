@@ -16,31 +16,31 @@ function toggleMenu() {
     navLinks.classList.toggle('show');
 }
 
-// بارگذاری فوتر و هدر با استفاده از AJAX
+// بارگذاری هدر و فوتر با استفاده از AJAX
 $(document).ready(function() {
     // بارگذاری هدر
     $.ajax({
         url: 'header.html',
         method: 'GET',
         success: function(data) {
-            $('body').prepend(data);
+            $('body').prepend(data); // هدر در بالای بدنه قرار می‌گیرد
         },
         error: function() {
             console.log('Error loading header');
         }
     });
+
     // بارگذاری فوتر
     $.ajax({
         url: 'footer.html',
         method: 'GET',
         success: function(data) {
-            $('body').append(data);
+            $('body').append(data); // فوتر در پایین بدنه قرار می‌گیرد
         },
         error: function() {
             console.log('Error loading footer');
         }
     });
-
 
     // بارگذاری پروژه‌ها به صورت پیش‌فرض
     loadProjects('university');
@@ -55,31 +55,31 @@ $(document).ready(function() {
         loadProjects('tech');
         toggleActiveButton($(this));
     });
-
-    // تابع برای بارگذاری پروژه‌ها از فایل projects.html
-    function loadProjects(type) {
-        $.ajax({
-            url: 'projects.html',
-            method: 'GET',
-            success: function(data) {
-                const projects = $(data).find('#' + type + '-projects .project-card');
-                const projectContent = $('#project-content');
-                projectContent.empty();  // حذف محتوای قبلی
-
-                // اضافه کردن پروژه‌ها به صفحه
-                projects.each(function() {
-                    projectContent.append($(this));
-                });
-            },
-            error: function() {
-                console.log('Error loading projects.');
-            }
-        });
-    }
-
-    // تابع تغییر کلاس active برای دکمه‌ها
-    function toggleActiveButton(button) {
-        $('.project-buttons button').removeClass('active');
-        button.addClass('active');
-    }
 });
+
+// تابع برای بارگذاری پروژه‌ها از فایل projects.html
+function loadProjects(type) {
+    $.ajax({
+        url: 'projects.html',
+        method: 'GET',
+        success: function(data) {
+            const projects = $(data).find('#' + type + '-projects .project-card');
+            const projectContent = $('#project-content');
+            projectContent.empty();  // حذف محتوای قبلی
+
+            // اضافه کردن پروژه‌ها به صفحه
+            projects.each(function() {
+                projectContent.append($(this));
+            });
+        },
+        error: function() {
+            console.log('Error loading projects.');
+        }
+    });
+}
+
+// تابع تغییر کلاس active برای دکمه‌ها
+function toggleActiveButton(button) {
+    $('.project-buttons button').removeClass('active');
+    button.addClass('active');
+}
