@@ -43,11 +43,11 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 <!--START_SECTION:waka-->
 
 ```txt
-Other         29 hrs 53 mins  ███████████████████████░░   92.08 %
-TSV           1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.63 %
-Image (svg)   52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.72 %
-Python        29 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 %
-Markdown      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+Other         34 hrs 51 mins  ██████████████████████░░░   88.12 %
+Python        2 hrs 29 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.32 %
+TSV           1 hr 7 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.85 %
+Image (svg)   52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.23 %
+Markdown      5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 %
 ```
 
 <!--END_SECTION:waka-->
