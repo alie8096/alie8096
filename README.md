@@ -27,8 +27,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical) 
-![Commits per Day](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alie8096&theme=radical)
-![Commits per Month](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alie8096&theme=radical&utcOffset=8)
+![Status Activity](https://github-readme-activity-graph.vercel.app/graph?username=alie8096&theme=xcode&hide_border=true)
 
 
 ## 📈 Languages Used
@@ -57,6 +56,7 @@ TeX        0 secs          ░░░░░░░░░░░░░░░░░�
 - [Basic principles of fMRI](https://github.com/alie8096/Basic-Principles-fMRI): Explanations about the principles of fMRI imaging and preprocessing and processing. View the [Presentation🖥️](https://alie8096.github.io/Basic-Principles-fMRI)
 - [Django E-booklet](https://github.com/alie8096/Django-E-booklet): Django framework training manual based on Django-Reza Dovati training. View the [E-Booklet🌐](https://mahd25.github.io/Django-E-booklet/e-booklet)
 - [Material Properties](https://github.com/alie8096/material-properties): Booklet on properties of engineering materials in progress.
+- [Report of `Autism diagnosis`] (https://alie8096.github.io/Autism-Diagnosis/)
 
 ## 📫 How to Reach Me
 
