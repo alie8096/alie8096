@@ -26,8 +26,7 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 ## 📊 GitHub Stats
 
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=alie8096&show_icons=true&theme=radical)
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical) 
-![Status Activity](https://github-readme-activity-graph.vercel.app/graph?username=alie8096&theme=xcode&hide_border=true)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alie8096&theme=radical)
 
 
 ## 📈 Languages Used
