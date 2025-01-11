@@ -55,7 +55,7 @@ Ignore List   16 mins         ▒░░░░░░░░░░░░░░░�
 - [Basic principles of fMRI](https://github.com/alie8096/Basic-Principles-fMRI): Explanations about the principles of fMRI imaging and preprocessing and processing. View the [Presentation🖥️](https://alie8096.github.io/Basic-Principles-fMRI)
 - [Django E-booklet](https://github.com/alie8096/Django-E-booklet): Django framework training manual based on Django-Reza Dovati training. View the [E-Booklet🌐](https://mahd25.github.io/Django-E-booklet/e-booklet)
 - [Material Properties](https://github.com/alie8096/material-properties): Booklet on properties of engineering materials in progress.
-- [Report of `Autism diagnosis`] (https://alie8096.github.io/Autism-Diagnosis/)
+- [Report of Autism diagnosis] (https://alie8096.github.io/Autism-Diagnosis/)
 
 ## 📫 How to Reach Me
 
