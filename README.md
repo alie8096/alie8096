@@ -41,11 +41,11 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 <!--START_SECTION:waka-->
 
 ```txt
-Other        39 hrs 35 mins  ███████████████████░░░░░░   75.53 %
-Rust         4 hrs 16 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 %
-Markdown     4 hrs 8 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.91 %
-Python       2 hrs 59 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.70 %
-JavaScript   52 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.66 %
+Other        38 hrs 59 mins  ███████████████████░░░░░░   76.64 %
+Markdown     4 hrs 50 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.53 %
+Rust         4 hrs 16 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.39 %
+Python       2 hrs 37 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.16 %
+HTML         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
 ```
 
 <!--END_SECTION:waka-->
