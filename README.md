@@ -41,9 +41,9 @@ Welcome to my GitHub profile! I'm passionate about coding and enjoy working with
 <!--START_SECTION:waka-->
 
 ```txt
-Other         7 hrs 34 mins   ███████████████████▓░░░░░   78.46 %
-Image (svg)   2 hrs 3 mins    █████▒░░░░░░░░░░░░░░░░░░░   21.37 %
-C             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
+Other         10 hrs 9 mins   ███████████████████▓░░░░░   79.07 %
+Image (svg)   2 hrs 40 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.80 %
+C             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 %
 ```
 
 <!--END_SECTION:waka-->
