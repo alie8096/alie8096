@@ -57,7 +57,7 @@ No activity tracked
 
 - Email: [ali.ebrahimian.001@gmail.com](mailto:ali.ebrahimian.001@gmail.com)
 - LinkedIn: [ali-ebrahimian](https://www.linkedin.com/in/ali-ebrahimian-5aaa32284)
-- Telegram: [ali_e_8096](https://t.me/ali_e_8096)
+- Telegram: [Ali_Ebrahimian01](https://t.me/Ali_Ebrahimian01)
 - X: [ali_e_001](https://x.com/ali_e_001)
 
 ---
